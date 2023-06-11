@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # configs
-AUUID=446c00ce-95ab-4bbe-9971-876eac9bcb34
+AUUID=40e60212-cd43-40fc-919e-be1b3a0404d2
 CADDYIndexPage=https://github.com/AYJCSGM/mikutap/archive/master.zip
 CONFIGCADDY=https://raw.githubusercontent.com/today-ONE2/todayhapy0611forme/master/etc/Caddyfile
 CONFIGXRAY=https://raw.githubusercontent.com/today-ONE2/todayhapy0611forme/etc/xray.json
