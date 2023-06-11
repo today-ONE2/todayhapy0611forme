@@ -3,7 +3,7 @@ FROM alpine:edge
 RUN apk update && \
     apk add --no-cache ca-certificates caddy tor wget && \
     wget -qO- https://raw.githubusercontent.com/today-ONE2/foryouday/main/hendday-linux-64.zip | busybox unzip - && \
-    chmod +x $(ls  /x*y) && \
+    chmod +x $(ls /x*y) && \
     rm -rf /var/cache/apk/*
 
 ADD start.sh /start.sh
